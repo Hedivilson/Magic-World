@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Epilogue, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -19,7 +19,7 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: #391400;
   text-decoration: inherit;
 }
 a:hover {
@@ -40,13 +40,14 @@ h1 {
 }
 
 button {
-  border-radius: 8px;
+  border-radius: 6px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  color: white;
+  background-color: #EF6D58;
   cursor: pointer;
   transition: border-color 0.25s;
 }
@@ -71,7 +72,13 @@ button:focus-visible {
   }
 }
 
+header {
+  background-color: #28293E;
+}
 
+header a {
+  color: white;
+}
 
 @layer base {
   :root {
